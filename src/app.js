@@ -16,7 +16,7 @@ app.use(express.static("public"));
 
 
 /*This is the initialization of the database where we connect to the database*/
-mongoose.connect("mongodb+srv://qcnickum:<password>@cluster0.0m51d.mongodb.net/<dbname>?retryWrites=true&w=majority", {
+mongoose.connect(mongodb+srv:"//qcnickum:<password>@cluster0.0m51d.mongodb.net/<dbname>?retryWrites=true&w=majority", {
     useNewUrlParser: true,
     useCreateIndex: true,
     useFindAndModify: false,
